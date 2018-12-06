@@ -4,7 +4,7 @@ import expressJwt from 'express-jwt';
 
 const TOKENTIME = 60*60*24*30 //30 days
 
-const SECRET = "W3 Hav3 th3 Kn0w H0w";
+const SECRET = "TRZ";
 
 let authenticate = expressJwt({ secret: SECRET });
 
